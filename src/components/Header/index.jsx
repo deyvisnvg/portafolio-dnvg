@@ -45,6 +45,9 @@ export default function Header() {
                 <a href="https://www.linkedin.com/in/deyvisnvg/" className="linkedin">
                     <i className="icon icon-linkedin"></i>
                 </a>
+                <a href="https://github.com/deyvisnvg" className="GitHub">
+                    <i className="icon icon-github"></i>
+                </a>
             </div>
 
         </header>
