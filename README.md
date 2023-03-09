@@ -24,7 +24,7 @@
 
 # Portafolio
 
-Esta aplicación muestra mi perfil como desarrollador Backend - Frontend y todos los proyectos personales y en colaboración trabajos hasta la actualidad.
+Esta aplicación muestra mi perfil como desarrollador Backend - Frontend y todos los proyectos personales y en colaboración trabajados hasta la actualidad.
 
 # Aplicación Portafilio
 
