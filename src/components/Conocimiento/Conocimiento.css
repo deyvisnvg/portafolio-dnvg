@@ -1,0 +1,65 @@
+#conocimiento {
+    position: relative;
+    padding-top: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+    padding-bottom: 50px;
+}
+
+.section-conocimiento {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.code-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.code-list p {
+    margin-bottom: 0;
+}
+
+.code-list figure {
+    margin: 5px;
+    padding: 30px 97px;
+    background: #52c16b;
+    border-radius: 5px;
+}
+
+.skills .description {
+    color: black;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    background: #b9b9b9;
+    border-radius: 15px;
+    font-size: 16px;
+    padding-left: 40px;
+    font-weight: bold;
+    width: 100%;
+    height: 80px;
+}
+
+.skills .description figure {
+    display: inherit;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.skills .description p {
+    margin: 0;
+    width: 150px;
+}
+
+.skills .description img {
+    margin: 0 12px;
+    /* filter: blur(1px); */
+}
+
+.skills .description img:hover {
+    transition: all .5s ease-in-out;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
