@@ -1,4 +1,3 @@
-import React from 'react';
 import {
     IconBrandReact,
     IconBrandHtml5,
@@ -6,9 +5,10 @@ import {
     IconBrandJavascript,
     IconBrandNpm,
     IconBrandSocketIo,
-    IconLeaf,
+    IconLeaf as IconBrandleaf,
     IconBrandPhp
 } from '@tabler/icons-react';
+import TitleIcon from './TitleIcon';
 import "./FeedProyectos.css"
 import todos from "../../../public/images/todos.png"
 import dibujo from "../../../public/images/dibujo.png"
@@ -84,7 +84,7 @@ const PROJECTS = [
         skill: [
             IconBrandNpm,
             IconBrandSocketIo,
-            IconLeaf,
+            IconBrandleaf,
             IconBrandHtml5,
             IconBrandCss3,
             IconBrandJavascript
@@ -192,14 +192,7 @@ export default function FeedVideos() {
                     <div className="portafolio-info">
                         <h2>{title}</h2>
                         <div className="skill">
-                            {skill.map(ski => {
-                                const titleIcon = ski.render.displayName.replace('IconBrand','')
-                                return (
-                                    <span key={titleIcon} className="icon" title={titleIcon}>
-                                        {React.createElement(ski)}
-                                    </span>
-                                )
-                            })}
+                            <TitleIcon skill={skill} />
                         </div>
                         <div className="portafolio-links">
                             <a href={app} title="Ver App">
