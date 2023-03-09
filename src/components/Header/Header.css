@@ -1,0 +1,93 @@
+#header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.perfil h1 {
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.perfil h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.8;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.perfil h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.perfil h2 span {
+    color: #fff;
+    border-bottom: 2px solid #18d26e;
+    padding-bottom: 6px;
+}
+
+.navbar {
+    padding: 0;
+    margin-top: 35px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li .nav-link:focus {
+    font-size: 18.5px;
+}
+
+.navbar ul li .nav-link:hover {
+    color: #fff;
+    border-bottom: 2px solid #18d26e;
+    transition: color 1.5s ease-in-out, border-color 0.75s ease-in-out;
+}
+
+.navbar .nav-link.active {
+    color: #fff;
+    border-bottom: 2px solid #18d26e;
+}
+
+.social-links {
+    margin-top: 40px;
+    display: flex;
+}
+
+.social-links a {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+}
