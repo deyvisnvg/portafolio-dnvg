@@ -1,0 +1,73 @@
+#experience {
+    position: relative;
+    padding-top: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.section-experience {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(431px, 1fr));
+    gap: 0 60px;
+    place-items: center;
+}
+
+.event {
+    
+    border-radius: 10px;
+    overflow: hidden;
+    /* para ocultar la esquina de la imagen y se muestre redondeado según al border-radius definido */
+    background-color: #f4fbff;
+    width: 450px;
+    margin-bottom: 30px;
+    height: 520px;
+}
+
+.event figure {
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+
+.event img {
+    width: 400px;
+    height: 250px;
+    /* para que la imagen muestre su tamaño normal por más que su height sea menor */
+    object-fit: cover;
+    /* para centrar una imagen */
+    object-position: center;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.event-list-title {
+    margin: 25px 0 10px 20px;
+}
+
+.event-detail {
+    width: 375px;
+    margin: auto;
+    margin-top: -70px;
+    background-color: white;
+    /* para mostrar el contenedor completo por encima del otro */
+    position: relative;
+    padding: 18px;
+    text-align: center;
+}
+
+.event-detail h1, h3 {
+    margin: 0 0 15px 0;
+}
+
+.event-detail p {
+    text-align: justify;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.event-url {
+    color: #056fff;
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
