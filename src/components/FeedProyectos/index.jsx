@@ -6,7 +6,15 @@ import {
     IconBrandNpm,
     IconBrandSocketIo,
     IconLeaf as IconBrandleaf,
-    IconBrandPhp
+    IconBrandPhp,
+    IconBrandPython,
+    IconBrandPowershell,
+    IconBrandFoursquare as IconBrandFlask,
+    IconBrandGit,
+    IconBrandGithub,
+    IconBrandTypescript,
+    IconBrandVercel,
+    IconBrandPrisma
 } from '@tabler/icons-react';
 import TitleIcon from './TitleIcon';
 import "./FeedProyectos.css"
@@ -22,10 +30,38 @@ import villaNeyser from "../../../public/images/villaNeyser.png"
 import cajeroAutomatico from "../../../public/images/cajeroAutomatico.png"
 import dibujarConFlechas from "../../../public/images/dibujarConFlechas.png"
 import bolsaTrabajo from "../../../public/images/bolsaTrabajo.png"
+import bookPokemon from "../../../public/images/bookPokemon.png"
+import rickyMorty from "../../../public/images/rickyMorty.png"
 
 const PROJECTS = [
     {
-        id: 1,
+        id: 7,
+        src: rickyMorty,
+        title: "Api Ricky and Morty",
+        skill: [
+            IconBrandPython,
+            IconBrandFlask,
+            IconBrandGit
+        ],
+        app: "#",
+        github: "https://github.com/deyvisnvg/flaskPersonajeApi",
+        description: ", proyecto final unidad 2 en Silabuz, aplicación que consume la API Rick and Morty, el cual extrae todos los personajes de la página 1 a la 21. API: https://rickandmortyapi.com/documentation/"
+    },
+    {
+        id: 8,
+        src: bookPokemon,
+        title: "Books and Pokemon",
+        skill: [
+            IconBrandPython,
+            IconBrandPowershell,
+            IconBrandGit
+        ],
+        app: "#",
+        github: "https://github.com/deyvisnvg/ProyectoSilabuz_1",
+        description: ", construcción de la aplicacion Libro y Pokemon en python, cuya funcionalidad permite realizar las siguientes funcionalidades, CRUD de la aplicación Libros y Consumir la API de Pokemon para listar por generación, forma, habilidad, hábitat y tipo."
+    },
+    {
+        id: 9,
         src: todos,
         title: "My Taks",
         skill: [
@@ -39,7 +75,7 @@ const PROJECTS = [
         description: ", fue el resultado de mi aprendizaje al llevar el Curso de Introducción a React.js, es una aplicación interactiva realizada en React basado en componentes, en la cual pudes crear tus tareas, chekearlos como completado y eliminarlos en caso lo requieras."
     },
     {
-        id: 2,
+        id: 10,
         src: dibujo,
         title: "Dibujos CSS",
         skill: [
@@ -52,7 +88,7 @@ const PROJECTS = [
         description: ", fue el resultado de mi aprendizaje al llevar el Curso Profesional de Css Grid Layout, donde se puede apreciar el rostro de una persona cómica y un logotipo de marca."
     },
     {
-        id: 3,
+        id: 11,
         src: cssGrid,
         title: "CSS Grid Layout",
         skill: [
@@ -65,7 +101,7 @@ const PROJECTS = [
         description: ", fue el resultado de mi aprendizaje al llevar el Curso Profesional de Css Grid Layout, donde se utilizó las distintas propiedades de Css Grid Layoud."
     },
     {
-        id: 4,
+        id: 12,
         src: paintWeb,
         title: "Paint Web",
         skill: [
@@ -78,7 +114,7 @@ const PROJECTS = [
         description: ", aplicación similar a un Paint realizada en javascript, en la cual se manejan 3 tipos de eventos de mouse: mousedown, mousemove, mouseup, cuyas funcionalidades son: Pintar, borrar, establecer color y definir el tamaño del pincel."
     },
     {
-        id: 5,
+        id: 13,
         src: leafletMapa,
         title: "Leaflet location",
         skill: [
@@ -94,7 +130,7 @@ const PROJECTS = [
         description: ", es una aplicación realizada en Node.js con socket.io y leaflet, la cual permite determinar la ubicación geográfica de los usarios que visitan tu página web."
     },
     {
-        id: 6,
+        id: 14,
         src: chatSocketio,
         title: "Chat tiempo Real",
         skill: [
@@ -106,7 +142,7 @@ const PROJECTS = [
         description: ", es una aplicación realizada en Node.js con tecnología socket.io que proporciona un canal de comunicación bidireccional entre cliente y servidor, la cual permite ejecutar conversaciones en tiempo real con distintos usuarios."
     },
     {
-        id: 7,
+        id: 15,
         src: juegoSecuencia,
         title: "Juego: Simon dice",
         skill: [
@@ -119,7 +155,7 @@ const PROJECTS = [
         description: ", fue el resultado de mi aprendizaje al llevar el Curso de Fundamentos de javascript en Platzi, en el que se van iluminando una secuencia de botones que el jugador tendrá que ir repitiendo hasta superar los 10 niveles de dificultad, para ganar."
     },
     {
-        id: 8,
+        id: 16,
         src: control,
         title: "Control de Entrada",
         skill: [
@@ -132,7 +168,7 @@ const PROJECTS = [
         description: ", control de Entrada, fue el resultado de mi aprendizaje al llevar el Curso de Desarrollo Web Online y Responsive Design en Platzi; una aplicación responsive, que permite controlar la asistencia de los Alumnos de una determinada I.E."
     },
     {
-        id: 9,
+        id: 17,
         src: villaNeyser,
         title: "Villa Neyser",
         skill: [
@@ -144,7 +180,7 @@ const PROJECTS = [
         description: ", fue el resultado de mi aprendizaje al llevar el Curso de Programación Básica en Platzi; cuyo funcionamiento es el movimiento del lobo a través de las flechas del Teclado y el mouse."
     },
     {
-        id: 10,
+        id: 18,
         src: cajeroAutomatico,
         title: "Cajero Automático",
         skill: [
@@ -156,7 +192,7 @@ const PROJECTS = [
         description: ", fue el resultado de mi aprendizaje al llevar el Curso de Programación Básica en Platzi; cuyo funcionamiento es la entrega efectiva del dinero solicitado."
     },
     {
-        id: 11,
+        id: 19,
         src: dibujarConFlechas,
         title: "Dibujo con Flechas",
         skill: [
@@ -168,7 +204,7 @@ const PROJECTS = [
         description: ", fue el resultado de mi aprendizaje al llevar el Curso de Programación Básica en Platzi; cuyo funcionamiento es dibujar mediante lineas a través de las flechas del teclado."
     },
     {
-        id: 12,
+        id: 20,
         src: bolsaTrabajo,
         title: "Bolsa de Trabajo",
         skill: [
@@ -178,7 +214,7 @@ const PROJECTS = [
             IconBrandJavascript
         ],
         app: "http://bolsa.unia.edu.pe/index.php",
-        github: { todos },
+        github: "#",
         description: ", es una aplicación web desarrollado para el Licenciamiento de la Universidad Nacional Intercultural de la Amazonía, la cual permite gestionar la publicación de oportunidades laborales realizadas por ciertas entidades."
     }
 ]
