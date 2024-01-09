@@ -1,9 +1,8 @@
 import { Portafolio } from './pages'
-import './App.css'
 
 function App() {
   return (
-    <div className="App">
+    <div className='bg-hero fixed inset-x-0 top-0 bg-cover z-0 scale-x-[-1]'>
       <Portafolio />
     </div>
   )

@@ -1,55 +1,52 @@
-import "./Header.css"
-// import "../../assets/css/fonts.css"
+import { icons } from "../../core/social";
 
 export default function Header() {
     return (
-        <header id="header">
-            <div className="perfil">
-                <h1>
-                    <a href="#">Deyvis Valdez</a>
-                </h1>
-                <h2>
-                    Hola soy<span> backend developer </span>
-                    en Node.js y Python de Perú
-                </h2>
+        <header className="relative text-white h-screen flex flex-col justify-center">
+            <div>
+                <h1 className="text-5xl font-bold">Deyvis Valdez</h1>
+                <p className="pt-5 pb-14 text-xl tracking-wider">
+                    Hola bienvenido, soy<span className="border-b-2 border-green-500 pb-2"> fullstack developer </span>
+                    de Perú
+                </p>
             </div>
 
-            <nav id="navbar" className="navbar">
-                <ul>
-                    <li>
-                        <a className="nav-link active" href="#header">Home</a>
+            <nav>
+                <ul className=" flex gap-10 
+                *:transition *:ease-in-out *:duration-700 
+                hover:*:-translate-y-1 
+                hover:*:scale-110 
+                hover:*:border-b 
+                hover:*:border-green-500
+                hover:*:text-white
+                font-medium *:text-gray-400 flex-wrap ease-out  duration-700"
+                >
+                    <li className="">
+                        <a href="#header">Home</a>
                     </li>
                     <li>
-                        <a className="nav-link" href="#portafolio">Portafolio</a>
+                        <a href="#portafolio">Portafolio</a>
                     </li>
                     <li>
-                        <a className="nav-link" href="#experience">Experiencia</a>
+                        <a href="#experience">Experiencia</a>
                     </li>
                     <li>
-                        <a className="nav-link" href="#conocimiento">Conocimiento</a>
+                        <a href="#conocimiento">Conocimiento</a>
                     </li>
                 </ul>
-                <i className="bi bi-list mobile-nav-toggle"></i>
             </nav>
 
-            <div className="social-links">
-                <a href="https://twitter.com/Deyvisnvg" className="twitter">
-                    <i className="icon icon-twitter"></i>
-                </a>
-                <a href="https://www.facebook.com/neyser94" className="facebook">
-                    <i className="icon icon-facebook"></i>
-                </a>
-                <a href="https://www.instagram.com/deyvisnvg/" className="instagram">
-                    <i className="icon icon-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/deyvisnvg/" className="linkedin">
-                    <i className="icon icon-linkedin"></i>
-                </a>
-                <a href="https://github.com/deyvisnvg" className="GitHub">
-                    <i className="icon icon-github"></i>
-                </a>
+            <div className="pt-9 flex gap-4 *:flex *:justify-center *:items-center">
+                {
+                    icons.map(({ name, urlIcon }) => {
+                        return (
+                            <a key={name} href={urlIcon} className="bg-gray-800 p-3 rounded-full hover:bg-slate-700 activate:bg-slate-900">
+                                <i className={`icon icon-${name}`} title={name}></i>
+                            </a>
+                        )
+                    })
+                }
             </div>
-
         </header>
     )
 }
