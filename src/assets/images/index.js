@@ -15,6 +15,7 @@ export { default as dibujarConFlechas } from "./dibujarConFlechas.png";
 export { default as juegoSecuencia } from "./juegoSecuencia.png";
 
 export { default as leafletMapa } from "./leafletMapa.png";
+export { default as mdpConsulting } from "./mdpConsulting.jpg";
 
 export { default as paintWeb } from "./paintWeb.png";
 
