@@ -2,7 +2,7 @@ import { silabuz, buildsoft, conf2, mdpConsulting } from "../../assets/images"
 
 export default function Experiencia() {
     return (
-        <section id="experience" className="relative text-white pt-16">
+        <section id="experience" className="relative text-white pb-16">
             <div>
                 <p className="text-lg tracking-widest uppercase font-mono flex items-center pb-1">
                     Experiencia

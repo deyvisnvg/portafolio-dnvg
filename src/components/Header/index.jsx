@@ -2,7 +2,7 @@ import { icons } from "../../core/social";
 
 export default function Header() {
     return (
-        <header className="relative text-white h-screen flex flex-col justify-center">
+        <header className="relative text-white h-screen flex flex-col justify-center" id="top">
             <div>
                 <h1 className="text-5xl font-bold">Deyvis Valdez</h1>
                 <p className="pt-5 pb-14 text-xl tracking-wider leading-loose">
