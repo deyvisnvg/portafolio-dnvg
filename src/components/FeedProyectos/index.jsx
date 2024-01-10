@@ -6,6 +6,8 @@ export default function FeedProjects() {
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 xl:gap-16'>
             {
                 PROJECTS.map(({ id, src, title, skill, app, github, description }) => {
+                    const target = app === "#" ? "" : "_blank";
+
                     return (
                         <div key={id} className="flex flex-col">
                             <div className='relative'>
@@ -29,10 +31,10 @@ export default function FeedProjects() {
                                         <TitleIcon skill={skill} />
                                     </div>
                                     <div className="flex gap-4 *:text-3xl">
-                                        <a href={app} title="Ver App">
+                                        <a href={app} title="Ver App" target={target}>
                                             <i className="icon icon-mobile2"></i>
                                         </a>
-                                        <a href={github} title="GitHub">
+                                        <a href={github} title="GitHub" target="_blank">
                                             <i className="icon icon-link"></i>
                                         </a>
                                     </div>

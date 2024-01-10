@@ -17,6 +17,7 @@ export { default as juegoSecuencia } from "./juegoSecuencia.png";
 
 export { default as leafletMapa } from "./leafletMapa.png";
 export { default as mdpConsulting } from "./mdpConsulting.jpg";
+export { default as onlineShop } from "./onlineShop.png";
 
 export { default as paintWeb } from "./paintWeb.png";
 

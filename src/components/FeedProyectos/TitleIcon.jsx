@@ -9,6 +9,10 @@ export default function TitleIcon({ skill }) {
                 titleIcon = "leaflet"
             } else if (titleIcon == "IconBrandFoursquare") {
                 titleIcon = "Flask"
+            } else if (titleIcon == "IconExplicit") {
+                titleIcon = "Express"
+            } else if (titleIcon == "IconBox") {
+                titleIcon = "Sequelize"
             } else {
                 titleIcon = titleIcon.replace('IconBrand', '')
             }

@@ -14,6 +14,9 @@ import {
     IconBrandPowershell,
     IconBrandFoursquare as IconBrandFlask,
     IconBrandGit,
+    IconBrandMysql,
+    IconExplicit as IconBrandExpress,
+    IconBox as IconBrandSequelize
 } from '@tabler/icons-react';
 import {
     bolsaTrabajo,
@@ -33,11 +36,12 @@ import {
     clonTiktok,
     twitterClonFollow,
     blockBuster,
+    onlineShop,
 } from "../assets/images";
 
 export const PROJECTS = [
     {
-        id: 4,
+        id: 3,
         src: twitterClonFollow,
         title: "Clone Twitter Follow",
         skill: [
@@ -51,7 +55,7 @@ export const PROJECTS = [
         description: "he desarrollado una pequeña parte de la aplicación de Twitter de la sección de 'Seguir' en React haciendo uso de Tailwind Css, y este ha sido el resultado."
     },
     {
-        id: 5,
+        id: 4,
         src: clonTiktok,
         title: "Clone Tiktok",
         skill: [
@@ -65,12 +69,27 @@ export const PROJECTS = [
         description: "Esta aplicación ha sido inspirada y es un clon de Tiktok, está construida en React haciendo uso de CSS3 que es muy interactivo."
     },
     {
+        id: 5,
+        src: onlineShop,
+        title: "Online Shop",
+        skill: [
+            IconBrandNodejs,
+            IconBrandCss3,
+            IconBrandMysql,
+            IconBrandExpress,
+            IconBrandSequelize,
+        ],
+        app: "#",
+        github: "https://github.com/deyvisnvg/tiendaFashion",
+        description: "Aplicación de una tienda online desarrollado con Node.js, Express, el motor de plantillas Handlebars, Javascript, Css, ORM Sequelize y BD en MYSQL."
+    },
+    {
         id: 6,
         src: blockBuster,
         title: "BlockBuster",
         skill: [
             IconBrandJavascript,
-            IconBrandCss3
+            IconBrandCss3,
         ],
         app: "https://deyvisnvg.github.io/blockMaster",
         github: "https://github.com/deyvisnvg/blockMaster",
