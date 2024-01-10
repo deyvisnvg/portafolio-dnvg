@@ -32,11 +32,12 @@ import {
     villaNeyser,
     clonTiktok,
     twitterClonFollow,
+    blockBuster,
 } from "../assets/images";
 
 export const PROJECTS = [
     {
-        id: 5,
+        id: 4,
         src: twitterClonFollow,
         title: "Clone Twitter Follow",
         skill: [
@@ -50,7 +51,7 @@ export const PROJECTS = [
         description: "he desarrollado una pequeña parte de la aplicación de Twitter de la sección de 'Seguir' en React haciendo uso de Tailwind Css, y este ha sido el resultado."
     },
     {
-        id: 6,
+        id: 5,
         src: clonTiktok,
         title: "Clone Tiktok",
         skill: [
@@ -61,7 +62,19 @@ export const PROJECTS = [
         ],
         app: "#",
         github: "https://github.com/deyvisnvg/valtok-clone",
-        description: "Esta aplicación ha sido inspirada y es un clon de Tiktok, está construida en React haciendo uso de CSS3 que es muy interactivo, y este ha sido el resultado."
+        description: "Esta aplicación ha sido inspirada y es un clon de Tiktok, está construida en React haciendo uso de CSS3 que es muy interactivo."
+    },
+    {
+        id: 6,
+        src: blockBuster,
+        title: "BlockBuster",
+        skill: [
+            IconBrandJavascript,
+            IconBrandCss3
+        ],
+        app: "https://deyvisnvg.github.io/blockMaster",
+        github: "https://github.com/deyvisnvg/blockMaster",
+        description: "Es una aplicación inspirada en una plataforma de streaming, está construida 100% Javascript según la lógica de trabajo en React, Redux, Styled Components y consumiendo la API The Movie Database."
     },
     {
         id: 7,

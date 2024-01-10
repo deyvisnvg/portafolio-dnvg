@@ -1,6 +1,7 @@
 export { default as bolsaTrabajo } from "./bolsaTrabajo.png";
 export { default as bookPokemon } from "./bookPokemon.png";
 export { default as buildsoft } from "./buildsoft.png";
+export { default as blockBuster } from "./blockbuster.png";
 
 export { default as conf2 } from "./conf2.jpeg";
 export { default as cssGrid } from "./cssGrid.png";
