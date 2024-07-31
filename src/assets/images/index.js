@@ -26,6 +26,6 @@ export { default as rickyMorty } from "./rickyMorty.png";
 export { default as silabuz } from "./silabuz.jpg";
 
 export { default as todos } from "./todos.png";
-export { default as twitterClonFollow } from "./twitterClonFollow.png";
+export { default as twitterClone } from "./twitterClone.png";
 
 export { default as villaNeyser } from "./villaNeyser.png";

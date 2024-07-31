@@ -34,7 +34,7 @@ import {
     todos,
     villaNeyser,
     clonTiktok,
-    twitterClonFollow,
+    twitterClone,
     blockBuster,
     onlineShop,
 } from "../assets/images";
@@ -42,17 +42,17 @@ import {
 export const PROJECTS = [
     {
         id: 3,
-        src: twitterClonFollow,
-        title: "Clone Twitter Follow",
+        src: twitterClone,
+        title: "Clone Twitter",
         skill: [
             IconBrandNodejs,
             IconBrandReact,
             IconBrandTailwind,
             IconBrandVite,
         ],
-        app: "#",
-        github: "https://github.com/deyvisnvg/react-1",
-        description: "he desarrollado una pequeña parte de la aplicación de Twitter de la sección de 'Seguir' en React haciendo uso de Tailwind Css, y este ha sido el resultado."
+        app: "https://twitter-clone-ecru-alpha.vercel.app/",
+        github: "https://github.com/deyvisnvg/twitterClone/tree/master/twitterClone",
+        description: "he desarrollado un Clon de la aplicación de Twitter usando React con Tailwind CSS, Keep React como framework y entre otras herramientas y este ha sido el resultado."
     },
     {
         id: 4,
